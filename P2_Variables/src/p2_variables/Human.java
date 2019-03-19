@@ -1,14 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package p2_variables;
 
-/**
- *
- * @author mvass
- */
 public class Human {
+    
+    int height;
+    int weight;
+    int age;
+
+    public Human(int height, int weight, int age) {
+        this.height = height;
+        this.weight = weight;
+        this.age = age;
+    }
+    
     
 }
